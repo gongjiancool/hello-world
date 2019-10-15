@@ -1,6 +1,6 @@
 #include <stdio.h>  
 #include <curl/curl.h>    
-int main(void)  {   
+int main(void){   
   CURL *curl;   
   CURLcode res;  
   
@@ -15,4 +15,3 @@ int main(void)  { 
        }   
     return 0;
 }
-
